@@ -27,3 +27,43 @@ body{
 .pad{
     padding-top:3rem;
 }
+#hero{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-inner{
+    width:50%;
+    background-color: transparent;
+    height:15vh;
+}
+#hello{
+    font-size:14rem;
+    word-spacing: -3.5rem;
+    font-weight:bolder;
+}
+.l{
+    color:#46BDA8;
+}
+#h{
+    color:#E5BA41;
+}
+#e{
+    color:#EE836D;
+}
+#o{
+    color:#D96361;
+}
+#dot{
+    color:#F57F72;
+}
+.ma{
+    color:#CCCCCC;
+}
+.button_start{
+    border-radius: 70px;
+    width: 35%;
+    height: 50px;
+    line-height: 35px;
+}
