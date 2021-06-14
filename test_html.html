@@ -7,12 +7,48 @@
     <link rel="icon" type="image/png" href="favicon.png"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="test.css"/>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <title>Bootstrap Tutorial Landing Page</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid"> 
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light pad">
+        <!-- <a class="navbar-brand" href="#"> 
+          <img src="favicon.png" class="img-fluid" width="50"/>
+        </a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <li class="nav-item active-nav mr-3">
+              <a class="nav-link active-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Features </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing </a>
+            </li>
 
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav mr-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login </a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link btn btn-outline-secondary button-round" href="#">Get Started</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </nav>
+      <!-- navbar ends -->
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

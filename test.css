@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid {
+    background-color: #F5F5F5;
+    height:100vh;
+    padding:0 5%;
+}
+.active-nav{
+    color:#404040;
+    font-weight: bolder;
+    line-height: 20px;
+    
+}
+.active-link{
+    border-bottom: 1px #000000 solid;
+}
+.button-round{
+    padding-right:0.9rem!important;
+    padding-left:0.9rem!important;
+    border-radius: 70px;
+    font-weight: bolder;
+    color:#000!important;
+    border-color: #40404024;
+}
+.pad{
+    padding-top:3rem;
+}
